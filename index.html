@@ -103,6 +103,69 @@
           </div>
       </section>
 
+      <!-- section container -->
+      <section id="contact" class="section section-contact scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <h4 class="center"><span class="blue-text">企业</span> 动态</h4>
+              <div class="card-panel blue center">
+                <div class="card-action">
+                  <table class="white-text">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <a class="white-text" href="http://www.baidu.com">
+                            <i class="material-icons left">open_in_new</i>标题标题是新闻的眉目,是新闻内容的精粹所在
+                          </a>
+                        </td>
+                        <td>2020-05-28</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a class="white-text" href="http://www.baidu.com">
+                            <i class="material-icons left">open_in_new</i>
+                            新闻特写的概念新闻特写是区别于消息与通讯和一种体裁
+                          </a>
+                        </td>
+                        <td>2020-05-27</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a class="white-text" href="http://www.baidu.com">
+                            <i class="material-icons left">open_in_new</i>
+                            大标题有表述事实的大标题、提出观点的大标题和既表述事实、又表明观点的大标题
+                          </a>
+                        </td>
+                        <td>2020-05-26</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a class="white-text" href="http://www.baidu.com">
+                            <i class="material-icons left">open_in_new</i>
+                            消息类新闻标题中主题的格式与构成 消息的标题常由主题和辅题构成
+                          </a>
+                        </td>
+                        <td>2020-05-04</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <a class="blue-text right" href="http://www.baidu.com"><i class="material-icons left">send</i>更多</a> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- parallax -->
+      <div style="height:160px" class="parallax-container">
+        <div class="parallax">
+            <img src="img/parallax.jpg" alt="" class="responsive-img">
+        </div>
+      </div>
+
       <!-- section icon boxes -->
       <section id="sevice" class="section scrollspy">
         <div class="container">
@@ -240,8 +303,8 @@
   	$(document).ready(function () {
   		$('.sidenav').sidenav();
   		$('.parallax').parallax();
-  	});
-  
+    });
+    
   	//Sidenav
   	const sideNav = document.querySelector('.sidenav');
   	M.Sidenav.init(sideNav, {});
@@ -257,7 +320,8 @@
   
   	// ScrollSpy
   	const ss = document.querySelectorAll('.scrollspy');
-  	M.ScrollSpy.init(ss, {});
+    M.ScrollSpy.init(ss, {});
+
 </script>
 </body>
 </html>
